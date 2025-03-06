@@ -1,0 +1,22 @@
+# FastAPI and ASGI Server
+fastapi==0.109.0
+uvicorn==0.25.0
+
+# Image and File Handling
+python-multipart==0.0.9
+Pillow==9.4.0  # For image processing
+
+# HTTP Client
+aiohttp==3.9.3
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# OpenAI API Client
+openai==0.28.0
+
+fal-client==0.5.6
+asyncio==3.4.3
+httpx==0.28.0
+
+pydantic==2.10.3
