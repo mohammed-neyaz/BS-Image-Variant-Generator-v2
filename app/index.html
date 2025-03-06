@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Variant Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-stone-900 text-stone-100">
+     <!-- Login Form -->
+     <div id="loginDiv" class="flex items-center justify-center min-h-screen bg-stone-900 px-4">
+        <div class="w-full max-w-md">
+            <div class="bg-stone-800 shadow-lg rounded-lg px-8 py-10">
+                <h1 class="text-3xl font-bold text-center text-lime-400 mb-8">Login</h1>
+                <form id="loginForm" class="space-y-6">
+                    <div>
+                        <label for="username" class="block text-sm font-medium text-stone-300 mb-1">Username</label>
+                        <input type="text" id="username" class="w-full px-4 py-2 rounded-md bg-stone-700 text-stone-100 border border-stone-600 focus:outline-none focus:ring-2 focus:ring-lime-400" required>
+                    </div>
+                    <div>
+                        <label for="password" class="block text-sm font-medium text-stone-300 mb-1">Password</label>
+                        <input type="password" id="password" class="w-full px-4 py-2 rounded-md bg-stone-700 text-stone-100 border border-stone-600 focus:outline-none focus:ring-2 focus:ring-lime-400" required>
+                    </div>
+                    <button type="submit" class="w-full bg-lime-400 text-stone-900 py-2 px-4 rounded-md hover:bg-lime-500 transition-colors duration-300 font-medium">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Content -->
+    <div id="contentDiv" class="mx-auto px-4 pb-8 pt-20 lg:pt-8 min-h-screen hidden">
+
+        <h1 class="text-4xl font-bold text-lime-400 mb-4 text-center">Image Variant Generator</h1>
+        <hr class="my-6 border-t border-stone-700 min-w-screen -mx-4">
+        <svg preserveAspectRatio="xMidYMid meet" data-bbox="0.03 0.01 365.89 49.56" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0.03 0.01 365.89 49.56" width="250px"
+            class="absolute  top-6 left-1/2 -translate-x-1/2 lg:left-4 lg:translate-x-0 p-4 " data-type="color"
+            role="presentation" aria-hidden="true" aria-label="" fill="#fff">
+            <defs></defs>
+            <g>
+                <path
+                    d="M.03.92h18.19c7.36 0 12.34 2.38 12.34 9.58 0 3.79-1.89 6.44-5.25 8.07 4.71 1.35 7.09 4.98 7.09 9.8 0 7.85-6.66 11.21-13.64 11.21H.03V.92Zm8.5 15.65h8.61c2.98 0 5.2-1.35 5.2-4.6 0-3.68-2.82-4.44-5.85-4.44H8.53v9.04Zm0 16.4h9.1c3.36 0 6.28-1.08 6.28-5.09s-2.49-5.52-6.12-5.52H8.53v10.61Z"
+                    data-color="1"></path>
+                <path
+                    d="M36.42 11.59h7.31v5.2h.11c1.41-3.52 5.2-5.96 8.93-5.96.54 0 1.19.11 1.68.27v7.15c-.7-.16-1.84-.27-2.76-.27-5.63 0-7.58 4.06-7.58 8.99v12.61h-7.69V11.59Z"
+                    data-color="1"></path>
+                <path
+                    d="M56.35 20.19c.43-7.2 6.88-9.37 13.16-9.37 5.58 0 12.29 1.25 12.29 7.96v14.56c0 2.54.27 5.09.97 6.23h-7.8c-.27-.87-.49-1.79-.54-2.71-2.44 2.54-6.01 3.46-9.42 3.46-5.31 0-9.53-2.65-9.53-8.39 0-6.33 4.76-7.85 9.53-8.5 4.71-.7 9.1-.54 9.1-3.68 0-3.3-2.27-3.79-4.98-3.79-2.92 0-4.82 1.19-5.09 4.22h-7.69Zm17.76 5.68c-1.3 1.14-4.01 1.19-6.39 1.63-2.38.49-4.55 1.3-4.55 4.11s2.22 3.57 4.71 3.57c6.01 0 6.23-4.76 6.23-6.44v-2.87Z"
+                    data-color="1"></path>
+                <path
+                    d="M86.85 11.59h7.31v3.9h.16c1.95-3.14 5.31-4.66 8.55-4.66 8.18 0 10.23 4.6 10.23 11.53v17.22h-7.69V23.77c0-4.6-1.35-6.88-4.93-6.88-4.17 0-5.96 2.33-5.96 8.01v14.67h-7.69V11.59Z"
+                    data-color="1"></path>
+                <path
+                    d="M137.96 36h-.11c-1.79 3.03-4.93 4.33-8.5 4.33-8.45 0-12.56-7.26-12.56-15s4.17-14.51 12.4-14.51c3.3 0 6.55 1.41 8.28 4.17h.11V.92h7.69v38.66h-7.31v-3.57Zm-6.71-19.38c-5.04 0-6.77 4.33-6.77 8.93s2 8.99 6.77 8.99c5.09 0 6.6-4.44 6.6-9.04s-1.62-8.88-6.6-8.88Z"
+                    data-color="1"></path>
+                <path
+                    d="M156.87 26.75c0 5.14 4.01 7.15 8.55 7.15 2.98 0 7.53-.87 7.53-4.82 0-4.17-5.79-4.87-11.48-6.39-5.74-1.52-11.53-3.74-11.53-10.99 0-7.9 7.47-11.69 14.46-11.69 8.07 0 15.48 3.52 15.48 12.45h-8.23c-.27-4.66-3.57-5.85-7.63-5.85-2.71 0-5.85 1.14-5.85 4.39 0 2.98 1.84 3.36 11.53 5.85 2.82.7 11.48 2.49 11.48 11.26 0 7.09-5.58 12.4-16.08 12.4-8.55 0-16.57-4.22-16.46-13.75h8.23Z"
+                    data-color="1"></path>
+                <path
+                    d="M199.12 43.24c-1.68 4.49-4.33 6.33-9.64 6.33-1.57 0-3.14-.11-4.71-.27v-6.33c1.46.11 2.98.33 4.49.27 2.65-.27 3.52-3.03 2.65-5.25l-9.85-26.26h8.23l6.33 19.17h.11l6.12-19.17h7.96l-11.69 31.51Z"
+                    data-color="1"></path>
+                <path
+                    d="M217.64 30.48c.05 3.36 2.87 4.71 5.9 4.71 2.22 0 5.03-.87 5.03-3.57 0-2.33-3.19-3.14-8.72-4.33-4.44-.97-8.88-2.54-8.88-7.47 0-7.15 6.17-8.99 12.18-8.99s11.75 2.06 12.34 8.93h-7.31c-.22-2.98-2.49-3.79-5.25-3.79-1.73 0-4.28.33-4.28 2.6 0 2.76 4.33 3.14 8.72 4.17 4.49 1.03 8.88 2.65 8.88 7.85 0 7.36-6.39 9.74-12.78 9.74s-12.83-2.44-13.16-9.85h7.31Z"
+                    data-color="1"></path>
+                <path
+                    d="M249.58 11.59h5.63v5.14h-5.63v13.86c0 2.6.65 3.25 3.25 3.25.81 0 1.57-.05 2.38-.22v6.01c-1.3.22-2.98.27-4.49.27-4.71 0-8.82-1.08-8.82-6.66V16.73h-4.66v-5.14h4.66v-8.4h7.69v8.39Z"
+                    data-color="1"></path>
+                <path
+                    d="M263.93 27.45c.22 4.87 2.6 7.09 6.88 7.09 3.09 0 5.58-1.89 6.06-3.63h6.77c-2.17 6.61-6.77 9.42-13.1 9.42-8.83 0-14.29-6.06-14.29-14.73s5.79-14.78 14.29-14.78c9.53 0 14.13 8.01 13.59 16.62h-20.19Zm12.51-4.87c-.7-3.9-2.38-5.96-6.12-5.96-4.87 0-6.28 3.79-6.39 5.96h12.51Z"
+                    data-color="1"></path>
+                <path
+                    d="M287.73 11.59h7.25v3.79h.11c2-2.87 4.93-4.55 8.55-4.55s6.66 1.3 8.17 4.66c1.63-2.44 4.55-4.66 8.45-4.66 5.95 0 10.23 2.76 10.23 10.02v18.73h-7.69V23.72c0-3.74-.33-6.82-4.71-6.82s-5.14 3.57-5.14 7.09v15.59h-7.69v-15.7c0-3.25.22-6.98-4.66-6.98-1.52 0-5.2.97-5.2 6.44v16.24h-7.69V11.59Z"
+                    data-color="1"></path>
+                <path
+                    d="M341.41 30.48c.05 3.36 2.87 4.71 5.9 4.71 2.22 0 5.04-.87 5.04-3.57 0-2.33-3.19-3.14-8.72-4.33-4.44-.97-8.88-2.54-8.88-7.47 0-7.15 6.17-8.99 12.18-8.99s11.75 2.06 12.34 8.93h-7.31c-.22-2.98-2.49-3.79-5.25-3.79-1.73 0-4.28.33-4.28 2.6 0 2.76 4.33 3.14 8.72 4.17 4.49 1.03 8.88 2.65 8.88 7.85 0 7.36-6.39 9.74-12.78 9.74s-12.83-2.44-13.16-9.85h7.31Z"
+                    data-color="1"></path>
+                <path
+                    d="M362.98 11.99c-1.72 0-2.95-1.29-2.95-3 0-1.8 1.36-3 2.95-3s2.94 1.2 2.94 3-1.36 3-2.94 3Zm0-5.48c-1.3 0-2.31 1.02-2.31 2.48 0 1.36.88 2.48 2.31 2.48 1.28 0 2.29-1.01 2.29-2.48s-1.01-2.48-2.29-2.48Zm-.59 4.2h-.55V7.39h1.26c.8 0 1.21.28 1.21.95 0 .6-.37.85-.87.91l.93 1.46h-.62l-.86-1.42h-.51v1.42Zm.61-1.89c.41 0 .77-.04.77-.52 0-.4-.39-.45-.72-.45h-.66v.97h.61Z"
+                    data-color="1"></path>
+            </g>
+        </svg>
+        <!-- Upload Section -->
+        <div id="uploadSection" class="flex flex-col content-center justify-center mb-4">
+            <p class="text-center mb-8 text-stone-300">Upload an image to generate creative variants</p>
+            <div id="dropZone"
+                class="border-2 self-center border-dashed border-lime-400 rounded-lg p-4 max-w-[600px] w-full text-center hover:bg-stone-800 transition-colors cursor-pointer">
+                <input type="file" id="fileInput" accept="image/*" class="hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto text-lime-400" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                </svg>
+                <p class="mt-2 text-stone-300">Drag and drop your image here or</p>
+                <label for="fileInput"
+                    class="mt-2 inline-block bg-lime-400 text-stone-900 px-4 py-2 rounded hover:bg-lime-600 transition-colors">
+                    Choose File
+                </label>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 pt-4">
+            <!-- Left Column -->
+            <div class="space-y-6 col-span-1">
+                <!-- Preview Section -->
+                <div id="previewSection" class="hidden">
+                    <h2 class="text-2xl font-semibold text-stone-100 mb-4">Original Image</h2>
+                    <div class="bg-stone-800 p-4 rounded-lg shadow-md">
+                        <img id="imagePreview" src="" alt="Image preview" class="max-w-full mx-auto">
+                    </div>
+                    <!-- Change Image Button -->
+                    <button id="change-image-btn"
+                        class="hidden mt-2 inline-block bg-lime-400 text-stone-900 px-4 py-2 rounded hover:bg-lime-600 transition-colors text-center w-full">
+                        Upload New Image
+                    </button>
+                </div>
+                <!-- Timer -->
+                <!-- <div id="timer" class="mt-4 text-stone-300 flex items-center justify-center space-x-2 hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    
+                </div> -->
+            </div>
+
+            <!-- Right Column -->
+            <div class="space-y-6 col-span-2">
+
+                <!-- Prompt Section -->
+                <div id="promptSection" class="hidden">
+                    <h2 class="text-2xl font-semibold text-stone-100 mb-4">Generated Prompt</h2>
+                    <div class="bg-stone-800 p-4 rounded-lg shadow-md">
+                        <p id="generatedPrompt" class="text-stone-300"></p>
+                    </div>
+                </div>
+
+                <!-- Variants Section -->
+                <div id="variantsSection" class="hidden  flex flex-col item-center">
+                    <h2 class="text-2xl font-semibold text-stone-100 mb-4">Generated Variants</h2>
+                    <div id="variantsGrid" class="grid grid-cols-1 sm:grid-cols-4 gap-4"></div>
+                    <hr class="my-4 border-t border-stone-600"> <!-- Horizontal line -->
+
+                    <button id="generateMoreBtn"
+                        class="mt-4 mx-auto bg-lime-400 text-stone-900 px-4 py-2 rounded hover:bg-lime-600 transition-colors hidden">
+                        Generate 4 More Variants
+                    </button>
+                </div>
+                <!-- Loading Indicator -->
+                <div id="loadingIndicator" class="hidden flex items-center justify-center space-x-2 mt-4">
+                    <div class="w-4 h-4 bg-lime-400 rounded-full animate-bounce"></div>
+                    <div class="w-4 h-4 bg-lime-400 rounded-full animate-bounce" style="animation-delay: 0.1s"></div>
+                    <div class="w-4 h-4 bg-lime-400 rounded-full animate-bounce" style="animation-delay: 0.2s"></div>
+                    <p class="ml-2 text-stone-300">Processing your request... (<span id="timerDisplay">00:00</span>)</p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
