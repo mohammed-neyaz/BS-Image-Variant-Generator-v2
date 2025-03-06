@@ -46,22 +46,6 @@ users_db = {
     "prabhudatta.tripathy@gmail.com": { 
         "username": "prabhudatta.tripathy@gmail.com",
         "password": "admin@123" 
-    },
-    "peter.svahn@brandsystems.com": { 
-        "username": "peter.svahn@brandsystems.com",
-        "password": "brand@123" 
-    },
-    "justin.weller@wellcomww.com.au": { 
-        "username": "justin.weller@wellcomww.com.au",
-        "password": "wellcom@123" 
-    },
-    "alex.jones@example.com": { 
-        "username": "alex.jones@example.com",
-        "password": "Welcome2024" 
-    },
-    "maria.garcia@example.com": { 
-        "username": "maria.garcia@example.com",
-        "password": "P@ssword!" 
     }
 }
 
