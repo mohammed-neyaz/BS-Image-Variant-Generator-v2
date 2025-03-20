@@ -331,7 +331,7 @@ async def generate_variants(data: dict):
 
         # Create tasks for parallel API calls
         tasks = []
-        for _ in range(4):
+        for _ in range(1):
             task = generate_single_variant(payload_template)
             tasks.append(task)
         
